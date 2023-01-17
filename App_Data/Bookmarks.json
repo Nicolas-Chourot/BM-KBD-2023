@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Title": "Glyphicon",
+    "Url": "https://www.glyphicons.com/"
+  },
+  {
+    "Id": 3,
+    "Title": "Bootstrap",
+    "Url": "https://getbootstrap.com"
+  },
+  {
+    "Id": 4,
+    "Title": "jQuery",
+    "Url": "https://jquery.com"
+  },
+  {
+    "Id": 5,
+    "Title": "jQuery UI",
+    "Url": "https://jqueryui.com"
+  },
+  {
+    "Id": 6,
+    "Title": "Microsoft Azure",
+    "Url": "https://portal.azure.com/#home"
+  },
+  {
+    "Id": 7,
+    "Title": "GitHub",
+    "Url": "https://github.com/"
+  },
+  {
+    "Id": 8,
+    "Title": "Flexbox guide",
+    "Url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+  },
+  {
+    "Id": 9,
+    "Title": "Choix de couleurs",
+    "Url": "https://www.sitew.com/Comment-designer-un-site-web/Choisir-couleurs-site"
+  },
+  {
+    "Id": 10,
+    "Title": "Google Fonts",
+    "Url": "https://developers.google.com/fonts"
+  },
+  {
+    "Id": 11,
+    "Title": "Fontawsome",
+    "Url": "https://fontawesome.com/icons"
+  },
+  {
+    "Id": 12,
+    "Title": "Contrast checker",
+    "Url": "https://contrastchecker.com/"
+  },
+  {
+    "Id": 13,
+    "Title": "Tutorial Teacher APS.Net MVC",
+    "Url": "https://www.tutorialsteacher.com/mvc"
+  }
+]

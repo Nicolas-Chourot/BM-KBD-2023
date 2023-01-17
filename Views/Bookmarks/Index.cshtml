@@ -1,0 +1,38 @@
+﻿@model IEnumerable<BookmarksManager.Models.Bookmark>
+
+@{ ViewBag.Title = "Index"; }
+
+<h2>
+    Liste des favoris
+    <a href="@Url.Action("Create")" style="text-decoration:none">
+        <span class="glyphicon glyphiconStyle glyphicon-plus"
+              title="Ajouter un favori">
+        </span>
+    </a>
+</h2>
+<hr />
+
+@foreach (var item in Model)
+{
+    <div class="bookmarkRow">
+        <div class="cell">
+            <a href="@item.Url" target="_blank">
+                <img class="bookmarkFavicon"
+                     src="http://www.google.com/s2/favicons?sz=64&domain=@item.Url" />
+                <div class="ellipsis">@item.Title</div>
+            </a>
+        </div>
+        <div class="cell">
+            <a href="@Url.Action("Edit/" + item.Id)" style="text-decoration:none">
+                <span class="glyphicon glyphiconStyle glyphicon-edit"
+                      title="Modifier @item.Title">
+                </span>
+            </a>
+            <a href="@Url.Action("Delete/" + item.Id)" style="text-decoration:none" onclick="return confirm('Effacer @item.Title ?');">
+                <span class="glyphicon glyphiconStyle glyphicon-remove-circle"
+                      title="Effacer @item.Title">
+                </span>
+            </a>
+        </div>
+    </div>
+}

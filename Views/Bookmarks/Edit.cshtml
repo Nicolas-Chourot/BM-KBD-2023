@@ -1,0 +1,13 @@
+﻿@model BookmarksManager.Models.Bookmark
+
+@{ ViewBag.Title = "Modification";}
+
+<h3>Modification de favori</h3>
+<hr />
+
+<form action="@Url.Action("Edit")" method="POST" class="simpleForm">
+    <input type="hidden" name="Id" id="Id" value="@Model.Id" />
+    <input type="text" name="Title" id="Title" placeholder="Titre" class="form-control" value="@Model.Title" required />
+    <input type="url" name="Url" id="Url" placeholder="Url" class="form-control"  value="@Model.Url" required />
+    <input type="submit" value="Enregistrer" class="form-control btn-success" />
+</form>
